@@ -37,9 +37,9 @@
         </div>
     </nav>
     <!-- navbar end -->
-    <section class="hero hero--our-work">
+    <section class="hero hero-contact">
         <div class="container">
-            <p class="main__heading"data-aos="fade-up"data-aos-delay="40">
+            <p class="main__heading"data-aos="fade-up">
                 The First Few steps are the hardest, <br>
                 lets us hear about your ideas.
             </p>
@@ -48,7 +48,7 @@
     <!-- hero end -->
     <section class="help">
         <div class="container">
-            <div class="help-box"data-aos="fade-up"data-aos-delay="40">
+            <div class="help-box"data-aos="fade-up">
                 <p class="sub__heading">What we’re friendly and helpful now</p>
                 <p class="description help-description">Got a problem?</p>
                 <p class="description help-description">Let us know and we’ll do our best to solve it.</p>
@@ -57,19 +57,23 @@
     </section>
     <section class="contact">
         <div class="container">
-            <h1 class="contact__heading sub__heading"data-aos="fade-up"data-aos-delay="40">Hello Kooleythemes,</h1>
-            <form action="submit.php" method="post" id="request" class="form wrapper al-center jst-btw">
-                <div class="form-box wrapper jst-btw"data-aos="fade-up"data-aos-delay="40">
-                    <p class="form-box__heading sub__heading">Name</p>
-                    <input type="text" name="name" class="form-box__input">
+            <h1 class="contact__heading sub__heading">Hello Kooleythemes,</h1>
+            <form action="submit.php" method="post" id="request" class="form wrapper jst-btw">
+                <div class="form-outer-box">
+                    <div class="form-box">
+                        <p class="form-box__heading">Your name</p>
+                        <input type="text" name="name" placeholder="Enter Your Name" class="form-box__input">
+                    </div>
+                    <div class="form-box">
+                        <p class="form-box__heading">Your mail</p>
+                        <input type="text" name="mail" placeholder="Enter Your Email Address" class="form-box__input">
+                    </div>
                 </div>
-                <div class="form-box form-box--center form-box1 wrapper jst-btw"data-aos="fade-up"data-aos-delay="40">
-                    <input type="text" name="mail" class="form-box__input  ?= $invalid_class_name ?? '' ?> ">
-                    <p class="form-box__heading form-box__heading--right sub__heading">Mail</p>
-                </div>
-                <div class="form-box form-box--full wrapper jst-btw"data-aos="fade-up"data-aos-delay="70">
-                    <p class="form-box__heading form-box__heading1 sub__heading">Message</p>
-                    <input class="form-box__input form-box__input1"type="text" name="message">
+                <div class="form-outer-box">
+                    <div class="form-box form-box--Message">
+                        <p class="form-box__heading">Message</p>
+                        <textarea class="form-box__input Message"type="text" placeholder="Tell us about your project"  name="message"></textarea>
+                    </div>
                 </div>
                 <button class="form-btn" type="submit"> Send Message</button>
             </form>
@@ -86,25 +90,26 @@
                     <img src="images/footer-bottom-to-top.png" alt="" class="footer-bottom-to-top">
                 </a>
                 <div class="footer-box">
-                    <p class="sub__heading sub__heading--footer-sm">E-mail</p>
+                    <p class="footer-sub__heading">E-mail</p>
                     <div class="footer-box-wrapper wrapper al-center jst-btw">
-                           <a href="mailto:Info@kooleythemes.com"
-                               class="description description--footer-a description--footer">Info@kooleythemes.com</a>>
-                        <p class="sub__heading sub__heading--footer-sm">Structure By Kooleythemes</p>
+                        <a href="mailto:Info@kooleythemes.com"
+                        class="description description--footer-a description--footer">Info@kooleythemes.com</a>
+                        
                     </div>
+                    <p class="footer-sub__heading">Structure By Kooleythemes</p>
                 </div>
                 <div class="footer-box">
-                    <p class="sub__heading">Social</p>
-                   <div class="footer-box-wrapper wrapper al-center jst-btw">
-                       <a href="https://www.instagram.com/kooleythemes/"
-                           class="description description--footer description--footer1">Instagram</a>
-                       <a href="https://www.facebook.com/KooleyThemes"
-                           class="description description--footer description--footer1">Facebook</a>
-                       <a href="https://dribbble.com/KooleyThemes"
-                           class="description description--footer description--footer1 description--footer1--last">Dribble</a>
-                       <a href="#"
-                           class="description description--footer description--footer1 description--footer1--last">LinkedIn</a>
-                   </div>
+                    <p class="footer-sub__heading">Social</p>
+                    <div class="footer-box-wrapper wrapper al-center jst-btw">
+                        <a href="https://www.instagram.com/kooleythemes/"
+                            class="description description--footer description--footer1">Instagram</a>
+                        <a href="https://www.facebook.com/KooleyThemes"
+                            class="description description--footer description--footer1">Facebook</a>
+                        <a href="https://dribbble.com/KooleyThemes"
+                            class="description description--footer description--footer1 description--footer1--last">Dribble</a>
+                        <a href="#"
+                            class="description description--footer description--footer1 description--footer1--last">LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </div>

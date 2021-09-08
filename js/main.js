@@ -5,7 +5,7 @@ $( document ).ready(function() {
 		$('.nav-list').toggleClass('active');
 	});
 	AOS.init({
-		offset: 200, 
+		offset: 100, 
 		duration: 1000
 	});
 });
