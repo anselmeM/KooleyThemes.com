@@ -141,7 +141,7 @@ img{
     padding-bottom: 150px;
 }
 .about-us-box{
-    max-width: 700px;
+    max-width: 500px;
     margin-left: auto;
 }
 .about-us-box__link{
@@ -155,6 +155,11 @@ img{
    width: 25px;
    height: 25px;
     margin-left: 10px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid var(--second-color);
+}
+.link-img:hover{
+    border: 1px solid #fff;transition: all 0.5s ease-in-out;
 }
 /* about-us end */
 .projects{
@@ -214,6 +219,10 @@ img{
     width: 25px;
     height:25px;
     right: -40px;
+    border: 1px solid var(--second-color);transition: all 0.5s ease-in-out;
+}
+.link-img2:hover{
+    border: 1px solid #fff;transition: all 0.5s ease-in-out;
 }
 .description--your-idea{
     position: relative;
@@ -496,6 +505,13 @@ img{
     cursor: pointer;
     font-family: 'Nixie-One-Light';
     margin: 40px auto 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+.form-btn:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(204, 202, 202);
+    border: 1px solid #000;
+    color: #222;font-size: 21px;
 }
 .contact-description{
     width: 85%;
@@ -801,6 +817,9 @@ img{
         width: 240px;
         height: 45px;
         font-size: 18px;
+    }
+    .form-btn:hover{
+        color: #222;font-size: 17px;
     }
     .contact__heading{
         margin-bottom: 50px;
